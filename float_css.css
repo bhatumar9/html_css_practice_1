@@ -1,0 +1,175 @@
+/*navbar development*/
+.navigation li
+ {
+  display:inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(red,maroon);
+  border: 1px solid rgb(0, 0, 0,0.3);
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "georgia";
+  font-size: 16px;
+  
+  }
+  .navigation li:hover
+  {
+    background: linear-gradient(black,#333);
+
+  }
+  .navigation
+  {
+  display: block;
+  }
+  .navigation>ul>li:hover
+
+  {
+
+    transition: all 800ms ease-in-out 1s;
+    width: 20%;
+    text-align: center;
+
+    }
+
+.clear-fix
+{
+  clear:both;
+}
+
+  li:first-child
+  {
+    border-bottom-left-radius: 15px;
+  }
+
+  li:nth-child(4)
+  {
+    border-top-right-radius: 15px;
+  }
+
+
+
+header{
+  background-color : black;
+  color:white;
+  height: 50px;
+
+  }
+section
+{
+  background-color : olive;
+  height: 50px;
+  width: 70%;
+  float: left;
+}
+
+aside
+{
+  background-color : maroon;
+  height: 50px;
+  width:30%;
+  float:right;
+
+}
+
+footer
+{
+  background-color: grey;
+  height:50px;
+
+}
+
+.group:before
+{
+   content:"";
+   clear:both;
+   display:block;
+
+}
+.group:after
+{
+    content:"";
+    clear:both;
+    display:block;
+}
+.group
+{
+ clear:both;
+}
+
+/*inline positioning*/
+.header{
+  background-color : black;
+  color:white;
+  height: 50px;
+  line-height: 50px;
+
+  }
+  .a{
+    display: inline-block;
+    background-color: olive;
+    height:50px;
+    width: 33.33%
+
+  }
+  .b{
+    display: inline-block;
+    background-color: maroon;
+    height:50px;
+    width: 33.33%
+
+  }
+.c{
+  display:inline-block;
+  background-color: silver;
+  height:50px;
+  width: 33.33%
+
+}
+
+.bg-img,.bg-img1,.bg-img2,.bg-img3
+{
+display: inline-block;
+height: 100px;
+width: 100px;
+margin: 0px 15px;
+background-image: url(bootstrap-icons.jpg);
+background-size: 400px 200px;
+background-repeat: repeat;
+
+}
+.bg-img1
+{
+  background-position: -100px -100px;
+}
+.bg-img:hover,.bg-img1:hover,.bg-img2:hover,.bg-img3:hover
+{
+transform: rotateZ(45deg);
+transition: all 500ms ease-in-out;
+transition-property: transform, background-position;
+box-shadow: 0px 0px 6px 8px silver;
+border-radius: 10px;
+background-position: -400px -100px;
+}
+.bg-img:hover
+{
+  background-position: -100px 0px;
+}
+.bg-img2
+{
+  background-position: -200px 0px;
+}
+
+.bg-img3
+{
+  background-position: -300px -100px;
+}
+
+.full-icons
+{
+ width:800px;
+ margin: auto;
+ padding: 30px 0px;
+}
+.grad-footer
+{
+  background: linear-gradient(olive,orange);
+}
